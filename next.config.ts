@@ -1,7 +1,10 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from "next"
 
 const nextConfig: NextConfig = {
-  /* config options here */
-};
+  env: {
+    API_URL: "https://689c957158a27b18087ebe36.mockapi.io",
+    DOMAIN_ORIGIN: "http://localhost:3000",
+  },
+}
 
-export default nextConfig;
+export default nextConfig
