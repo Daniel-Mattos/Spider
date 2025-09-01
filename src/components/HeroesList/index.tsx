@@ -1,6 +1,7 @@
 "use client"
 import { motion } from "framer-motion"
 import Link from "next/link"
+import Image from "next/image"
 
 import HeroPicture from "../HeroPicture"
 
@@ -16,6 +17,7 @@ interface IProps {
 export default function HeroesList({ heroes }: IProps) {
   return (
     <>
+    <Image src="/home-background.png" alt="Home Background" fill sizes="100vw" className={styles.background} />
       <motion.h1
         className={`${spidermanFont.className} ${styles.title}`}
         initial={{ opacity: 0 }}

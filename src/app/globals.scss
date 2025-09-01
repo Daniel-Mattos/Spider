@@ -7,6 +7,7 @@
 
   &:not(.hero-page)::before {
     content: "";
+    z-index: -2;
     background: $background;
     height: 100%;
     width: 100%;
@@ -30,4 +31,14 @@ header{
   margin: 3rem 3rem 0;
   position: relative;
   z-index: 4;
+
+  @media screen and (max-width: $max-widht-mobile) {
+    margin:2rem 2rem 0;
+  }
+}
+.spider-logo {
+  @media screen and (max-width: $max-widht-mobile) {
+    height: auto; 
+    width: 10rem;
+  }
 }
