@@ -1,6 +1,6 @@
 Spider-Verse: Character Explorer
 <p align="center">
-<img src="https://i.imgur.com/K1U1e4j.jpeg" alt="Página inicial do projeto Spider-Verse">
+<img src="/src/assets/image.png" alt="Página inicial do projeto Spider-Verse">
 </p>
 
 <p align="center">
@@ -52,7 +52,7 @@ Animações Fluidas: A navegação entre as telas e as interações são enrique
 O design foi inspirado na identidade visual vibrante e única do filme "Homem-Aranha no Aranhaverso". A tela inicial, como vista abaixo, apresenta os personagens de forma impactante sobre um fundo limpo, convidando o usuário à interação.
 
 <p align="center">
-<img src="https://www.google.com/search?q=https://i.imgur.com/K1U1e4j.jpeg" alt="Página inicial do projeto Spider-Verse" width="80%">
+<img src="/src/assets/hero.png" alt="Página herois do projeto Spider-Verse" width="80%">
 </p>
 
 O layout é totalmente responsivo, garantindo uma ótima experiência tanto em desktops quanto em dispositivos móveis.
